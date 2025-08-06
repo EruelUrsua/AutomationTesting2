@@ -9,13 +9,16 @@ public class Hooks {
 
     public static ChromeOptions options;
 
+
+
     @Before
     public void setUp(){
+
         driver = new BrowserDriver();
     }
 
-    @After
-    public void tearDown() {
-        driver.close();
-    }
+//    @After
+//    public void tearDown() {
+//        driver.close();
+//    }
 }
